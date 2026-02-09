@@ -1,30 +1,38 @@
+#spring:
+#  application:
+#    name: user-service
+#  mongodb:
+#    database: userdb
+#    uri: mongodb+srv://pranshukk95_db_user:Mongo123@user-data.vwe0w98.mongodb.net/?appName=user-data
+##  datasource:
+##    url: jdbc:postgresql://localhost:5432/userdb
+##    username: pranshukk
+##    password: pranshukk
+##  jpa:
+##    database: POSTGRESQL
+##    # JPA / Hibernate
+##    hibernate:
+##      ddl-auto: update
+##    show-sql: true
+##    database-platform: org.hibernate.dialect.PostgreSQLDialect
+##  h2:
+##    console:
+##      enabled: true
+##  datasource:
+##    url: jdbc:h2:mem:test
+##  jpa:
+##    show-sql: true
+##    hibernate:
+##      ddl-auto: create
+#
+#server:
+#  port: 8082
 spring:
   application:
     name: user-service
-  mongodb:
-    database: userdb
-    uri: mongodb+srv://pranshukk95_db_user:R1ZDeJDToOY8hrXQ@user-data.vwe0w98.mongodb.net/?appName=user-data
 
-#  datasource:
-#    url: jdbc:postgresql://localhost:5432/userdb
-#    username: pranshukk
-#    password: pranshukk
-#  jpa:
-#    database: POSTGRESQL
-#    # JPA / Hibernate
-#    hibernate:
-#      ddl-auto: update
-#    show-sql: true
-#    database-platform: org.hibernate.dialect.PostgreSQLDialect
-#  h2:
-#    console:
-#      enabled: true
-#  datasource:
-#    url: jdbc:h2:mem:test
-#  jpa:
-#    show-sql: true
-#    hibernate:
-#      ddl-auto: create
+  mongodb:
+    uri: mongodb+srv://pranshukk95_db_user:Mongo123@user-data.vwe0w98.mongodb.net/userdb
 
 server:
   port: 8082
