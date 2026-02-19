@@ -32,7 +32,8 @@ spring:
     name: user-service
 
   mongodb:
-    uri: mongodb+srv://pranshukk95_db_user:Mongo123@user-data.vwe0w98.mongodb.net/userdb
+    uri: mongodb://localhost:27017/ecom_user
+    database: ecom_user
 
 server:
   port: 8082

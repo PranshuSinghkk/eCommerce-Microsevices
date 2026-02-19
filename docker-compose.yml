@@ -31,8 +31,47 @@ services:
 
 networks:
   postgres:
-    driver: bridge
+   driver: bridge
 
 volumes:
   postgres:
   pgadmin:
+
+
+
+
+
+#services:
+#  mysql:
+#    container_name: mysql_container
+#    image: mysql
+#    environment:
+#      MYSQL_ROOT_PASSWORD: pranshukk
+#      MYSQL_DATABASE: pranshukk
+#      MYSQL_USER: pranshukk
+#      MYSQL_PASSWORD: pranshukk
+#    volumes:
+#      - mysql_data:/var/lib/mysql
+#    ports:
+#      - "3307:3306"
+#    networks:
+#      - mysql
+#    restart: unless-stopped
+#
+#  phpmyadmin:
+#    container_name: phpmyadmin_container
+#    image: phpmyadmin/phpmyadmin
+#    environment:
+#      PMA_HOST: mysql
+#      PMA_PORT: 3306
+#      MYSQL_ROOT_PASSWORD: pranshukk
+#    ports:
+#      - "8484:80"
+#    networks:
+#      - mysql
+#    restart: unless-stopped
+#networks:
+#  mysql:
+#    driver: bridge
+#volumes:
+#  mysql_data:
