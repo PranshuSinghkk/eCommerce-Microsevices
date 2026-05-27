@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="configserver" />
       </profile>
-      <profile name="Annotation profile for order" enabled="true">
+      <profile name="Annotation profile for ecom-application" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -18,8 +18,8 @@
         </processorPath>
         <module name="product" />
         <module name="user" />
-        <module name="order" />
         <module name="ecom-application" />
+        <module name="order" />
       </profile>
     </annotationProcessing>
   </component>
